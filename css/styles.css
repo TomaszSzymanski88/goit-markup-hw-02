@@ -1,0 +1,104 @@
+:root {
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-color: #2196F3;
+}
+body {
+    font-family: var(--main-font);
+    cursor:pointer
+}
+/* ==== HEADER ==== */
+.navigation-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.navigation-logo > span {
+    color: #000000;
+}
+.navigation-list-link,
+.link-mail, 
+.link-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    }
+.address-contact-header > .link-mail, .link-tel {
+    color: #757575;
+}
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.link-mail:hover, .link-mail:focus,
+.link-tel:hover, .link-tel:focus,
+.address-list-link:hover, .address-list-link:focus,
+.address-list-link1:hover, .address-list-link1:focus,
+.address-list-link2:hover, .address-list-link2:focus {
+    color: var(--main-color)
+}
+/* ==== END HEADER ==== */
+/* ==== MAIN ====*/
+.modal-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+.modal-btn:hover, .modal-btn:focus {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+}
+.photo-list-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.photo-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ==== END MAIN ==== */
+
+/* ==== FOOTER ==== */
+.address-list-item{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    /* color: #FFFFFF; */
+    
+}
+.address-list-link {
+    text-decoration: none;
+    
+}
+.address-list-link1 {
+    text-decoration-line: underline;
+   /* color: rgba(255, 255, 255, 0.6); */
+}
+.address-list-link2 {
+    text-decoration: none
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* ==== END FOOTER ==== */
+
+
+
+
